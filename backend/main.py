@@ -1,4 +1,13 @@
 import os
+import sys
+
+# Ensure the parent directory is in sys.path so 'backend' is recognized as a package
+# even when starting the server directly from the backend/ directory.
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
+
 import json
 import logging
 from fastapi import FastAPI, HTTPException
@@ -15,7 +24,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Load environment variables
-load_dotenv()
+dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
+load_dotenv(dotenv_path)
 
 app = FastAPI(
     title="MedAssist AI Backend",

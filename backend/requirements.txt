@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+groq
+reportlab
+pydantic>=2.9.2
+python-dotenv
+httpx

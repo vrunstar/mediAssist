@@ -1,0 +1,111 @@
+{
+  "title": "MedAssist — AI Medical Assistant",
+  "subtitle": "Clinical-Grade Symptom Assessment & Triage Engine",
+  "form": {
+    "patientInfo": {
+      "title": "1. Patient Information (Optional)",
+      "nameLabel": "Patient's Name",
+      "namePlaceholder": "e.g. John Doe",
+      "age": "Age",
+      "sexLabel": "Biological Sex",
+      "sex": {
+        "placeholder": "Select biological sex",
+        "male": "Male",
+        "female": "Female",
+        "other": "Prefer not to say"
+      }
+    },
+    "symptoms": {
+      "label": "2. Symptoms (Required)",
+      "subtitle": "Select symptoms or click '+ Add More' to view full list",
+      "min_required": "Please select at least 1 symptom to proceed"
+    },
+    "medications": {
+      "label": "3. Current Medications (Optional)",
+      "subtitle": "Select medications or type in custom entries below"
+    },
+    "conditions": {
+      "label": "5. Existing Medical Conditions (Optional)",
+      "subtitle": "Select pre-existing chronic or systemic medical issues"
+    },
+    "allergies": {
+      "label": "4. Known Allergies (Optional)",
+      "placeholder": "e.g. Penicillin, Sulfa drugs, NSAIDs"
+    },
+    "duration": {
+      "label": "6. Symptom Duration (Optional)",
+      "placeholder": "Select duration level",
+      "less24": "Less than 24 hours",
+      "1to3": "1–3 days",
+      "4to7": "4–7 days",
+      "1to2w": "1–2 weeks",
+      "more2w": "More than 2 weeks"
+    },
+    "submit": "Generate Medical Report",
+    "loadingTitle": "Analyzing Symptoms & Compiling Clinical Report...",
+    "loadingSub": "MedAssist is querying the medical knowledge core. This takes about 5-10 seconds."
+  },
+  "popup": {
+    "search": {
+      "placeholder": "Search from full clinical categories..."
+    },
+    "done": "Confirm Selection",
+    "add_custom": "Add Custom Medication",
+    "custom_placeholder": "Type custom medication name...",
+    "categories": "Categories"
+  },
+  "report": {
+    "disclaimer": "This report is AI-generated for informational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional before making any medical decisions.",
+    "title": "Symptom Assessment Report",
+    "id": "Report Reference:",
+    "generated": "Assessment Completed:",
+    "patientSummary": {
+      "title": "Patient Summary",
+      "name": "Patient's Name:",
+      "age": "Age:",
+      "sex": "Sex:",
+      "duration": "Symptom Duration:",
+      "symptoms": "Reported Symptoms:",
+      "meds": "Current Medications:",
+      "allergies": "Reported Allergies:",
+      "conditions": "Pre-existing Conditions:"
+    },
+    "diagnoses": {
+      "title": "Possible Diagnoses",
+      "likelihood": "Likelihood:"
+    },
+    "urgency": {
+      "title": "Urgency Triage Level",
+      "reasoning": "Triage Assessment:",
+      "specialist": "Recommended Specialist:"
+    },
+    "medications": {
+      "title": "Suggested Medications (OTC & Prescription Guidance)",
+      "table": {
+        "drug": "Medication (Generic)",
+        "dosage": "Dosage & Freq",
+        "timing": "Timing & Meal",
+        "duration": "Duration & Status",
+        "warnings": "Safety Warnings"
+      }
+    },
+    "interactions": {
+      "title": "Potential Drug Interactions",
+      "table": {
+        "drugs": "Interacting Drugs",
+        "severity": "Severity",
+        "desc": "Interaction Outcome"
+      },
+      "none": "No drug-to-drug interactions detected between current and suggested therapies."
+    },
+    "allergies": {
+      "title": "Drug Allergy Conflict Checks",
+      "none": "No active allergy conflicts detected with the suggested therapies."
+    },
+    "advice": {
+      "title": "Supportive Lifestyle & Self-Care Advice"
+    },
+    "downloadPdf": "Download PDF Report",
+    "backToForm": "Start New Assessment"
+  }
+}

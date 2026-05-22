@@ -1,0 +1,104 @@
+{
+  "common": [
+    "Diabetes",
+    "Hypertension",
+    "Asthma",
+    "Hypothyroidism",
+    "GERD",
+    "Anxiety",
+    "Depression",
+    "Heart Disease",
+    "Kidney Disease",
+    "Arthritis"
+  ],
+  "categories": {
+    "Metabolic": [
+      "Diabetes",
+      "Pre-diabetes",
+      "Obesity",
+      "Hyperlipidemia",
+      "Gout"
+    ],
+    "Cardiovascular": [
+      "Hypertension",
+      "Heart Disease",
+      "Coronary Artery Disease",
+      "Heart Failure",
+      "Arrhythmia",
+      "Stroke",
+      "Peripheral Artery Disease"
+    ],
+    "Respiratory": [
+      "Asthma",
+      "COPD",
+      "Chronic Bronchitis",
+      "Emphysema",
+      "Sleep Apnea",
+      "Allergic Rhinitis"
+    ],
+    "Neurological/Psychiatric": [
+      "Anxiety",
+      "Depression",
+      "Bipolar Disorder",
+      "Migraine",
+      "Epilepsy",
+      "Multiple Sclerosis",
+      "Dementia",
+      "Parkinson's Disease",
+      "ADHD"
+    ],
+    "Gastrointestinal": [
+      "GERD",
+      "Irritable Bowel Syndrome",
+      "Celiac Disease",
+      "Crohn's Disease",
+      "Ulcerative Colitis",
+      "Gallstones",
+      "Fatty Liver Disease"
+    ],
+    "Endocrine": [
+      "Hypothyroidism",
+      "Hyperthyroidism",
+      "PCOS",
+      "Adrenal Insufficiency",
+      "Osteoporosis"
+    ],
+    "Renal": [
+      "Kidney Disease",
+      "Chronic Kidney Disease",
+      "Kidney Stones",
+      "Polycystic Kidney Disease"
+    ],
+    "Musculoskeletal": [
+      "Arthritis",
+      "Osteoarthritis",
+      "Rheumatoid Arthritis",
+      "Fibromyalgia",
+      "Gouty Arthritis",
+      "Chronic Back Pain"
+    ],
+    "Autoimmune": [
+      "Lupus",
+      "Psoriasis",
+      "Celiac Disease",
+      "Rheumatoid Arthritis",
+      "Hashimoto's Thyroiditis",
+      "Multiple Sclerosis"
+    ],
+    "Cancer/Oncology": [
+      "Breast Cancer",
+      "Prostate Cancer",
+      "Lung Cancer",
+      "Colorectal Cancer",
+      "Skin Cancer",
+      "Leukemia"
+    ],
+    "Other": [
+      "Anemia",
+      "Chronic Fatigue Syndrome",
+      "Eczema",
+      "Glaucoma",
+      "Cataracts"
+    ]
+  }
+}

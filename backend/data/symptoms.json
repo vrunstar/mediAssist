@@ -1,0 +1,121 @@
+{
+  "common": [
+    "Fever",
+    "Headache",
+    "Cough",
+    "Fatigue",
+    "Nausea",
+    "Chest Pain",
+    "Shortness of Breath",
+    "Sore Throat",
+    "Dizziness",
+    "Abdominal Pain"
+  ],
+  "categories": {
+    "Neurological": [
+      "Headache",
+      "Dizziness",
+      "Seizures",
+      "Numbness",
+      "Tingling",
+      "Confusion",
+      "Memory Loss",
+      "Tremors",
+      "Loss of Balance"
+    ],
+    "Respiratory": [
+      "Cough",
+      "Shortness of Breath",
+      "Wheezing",
+      "Chest Tightness",
+      "Snoring",
+      "Rapid Breathing"
+    ],
+    "Cardiovascular": [
+      "Chest Pain",
+      "Palpitations",
+      "Irregular Heartbeat",
+      "Swollen Legs",
+      "Fainting"
+    ],
+    "Digestive": [
+      "Nausea",
+      "Abdominal Pain",
+      "Vomiting",
+      "Diarrhea",
+      "Constipation",
+      "Heartburn",
+      "Bloating",
+      "Loss of Appetite",
+      "Difficulty Swallowing"
+    ],
+    "Musculoskeletal": [
+      "Joint Pain",
+      "Muscle Aches",
+      "Back Pain",
+      "Neck Pain",
+      "Stiffness",
+      "Muscle Weakness"
+    ],
+    "Dermatological": [
+      "Rash",
+      "Itching",
+      "Dry Skin",
+      "Redness",
+      "Hives",
+      "Blisters",
+      "Acne",
+      "Skin Color Changes"
+    ],
+    "Urological": [
+      "Painful Urination",
+      "Frequent Urination",
+      "Blood in Urine",
+      "Urinary Incontinence",
+      "Difficulty Urinating"
+    ],
+    "ENT": [
+      "Sore Throat",
+      "Running Nose",
+      "Stuffy Nose",
+      "Earache",
+      "Ringing in Ears",
+      "Loss of Smell",
+      "Loss of Taste",
+      "Hoarseness"
+    ],
+    "Ophthalmological": [
+      "Blurry Vision",
+      "Eye Pain",
+      "Red Eyes",
+      "Dry Eyes",
+      "Sensitivity to Light",
+      "Double Vision"
+    ],
+    "Psychiatric": [
+      "Anxiety",
+      "Depressed Mood",
+      "Panic Attacks",
+      "Mood Swings",
+      "Sleep Disturbances",
+      "Irritability"
+    ],
+    "Endocrine": [
+      "Excessive Thirst",
+      "Frequent Urination",
+      "Unexplained Weight Gain",
+      "Unexplained Weight Loss",
+      "Cold Intolerance",
+      "Heat Intolerance"
+    ],
+    "General/Systemic": [
+      "Fever",
+      "Fatigue",
+      "Chills",
+      "Night Sweats",
+      "Generalized Weakness",
+      "Body Aches",
+      "Swollen Lymph Nodes"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "common": [
+    "Paracetamol",
+    "Ibuprofen",
+    "Metformin",
+    "Amlodipine",
+    "Atorvastatin",
+    "Omeprazole",
+    "Aspirin",
+    "Cetirizine",
+    "Azithromycin",
+    "Pantoprazole"
+  ],
+  "categories": {
+    "Analgesics": [
+      "Paracetamol",
+      "Ibuprofen",
+      "Naproxen",
+      "Tramadol",
+      "Acetaminophen",
+      "Meloxicam",
+      "Celecoxib"
+    ],
+    "Antibiotics": [
+      "Azithromycin",
+      "Amoxicillin",
+      "Ciprofloxacin",
+      "Cephalexin",
+      "Doxycycline",
+      "Clarithromycin",
+      "Levofloxacin"
+    ],
+    "Antidiabetics": [
+      "Metformin",
+      "Glipizide",
+      "Glimepiride",
+      "Sitagliptin",
+      "Insulin Glargine",
+      "Empagliflozin",
+      "Liraglutide"
+    ],
+    "Antihypertensives": [
+      "Amlodipine",
+      "Lisinopril",
+      "Losartan",
+      "Metoprolol",
+      "Carvedilol",
+      "Enalapril",
+      "Valsartan",
+      "Atenolol"
+    ],
+    "Statins": [
+      "Atorvastatin",
+      "Simvastatin",
+      "Rosuvastatin",
+      "Pravastatin",
+      "Lovastatin"
+    ],
+    "Antacids/PPIs": [
+      "Omeprazole",
+      "Pantoprazole",
+      "Esomeprazole",
+      "Ranitidine",
+      "Famotidine",
+      "Lansoprazole"
+    ],
+    "Antihistamines": [
+      "Cetirizine",
+      "Loratadine",
+      "Fexofenadine",
+      "Levocetirizine",
+      "Diphenhydramine"
+    ],
+    "Antidepressants": [
+      "Sertraline",
+      "Escitalopram",
+      "Fluoxetine",
+      "Duloxetine",
+      "Venlafaxine",
+      "Amitriptyline",
+      "Bupropion"
+    ],
+    "Thyroid": [
+      "Levothyroxine",
+      "Liothyronine",
+      "Methimazole"
+    ],
+    "Respiratory": [
+      "Albuterol",
+      "Fluticasone",
+      "Montelukast",
+      "Budesonide",
+      "Salmeterol",
+      "Ipratropium"
+    ],
+    "Vitamins/Supplements": [
+      "Vitamin D3",
+      "Vitamin B12",
+      "Calcium",
+      "Iron Sulfate",
+      "Zinc",
+      "Multivitamin",
+      "Omega-3 Fish Oil"
+    ],
+    "Other": [
+      "Warfarin",
+      "Clopidogrel",
+      "Allopurinol",
+      "Gabapentin",
+      "Prednisone",
+      "Furosemide",
+      "Spironolactone"
+    ]
+  }
+}

@@ -85,6 +85,22 @@ class TestMedAssistServices(unittest.TestCase):
     def test_mock_report_generation(self):
         service = GroqService()
         
+        # Test robust placeholder API key detection
+        original_key = service.api_key
+        try:
+            service.api_key = "your_groq_api_key_here"
+            self.assertTrue(service._is_mock_mode())
+            service.api_key = "placeholder_key"
+            self.assertTrue(service._is_mock_mode())
+            service.api_key = ""
+            self.assertTrue(service._is_mock_mode())
+            service.api_key = None
+            self.assertTrue(service._is_mock_mode())
+            service.api_key = "gsk_valid_key_format"
+            self.assertFalse(service._is_mock_mode())
+        finally:
+            service.api_key = original_key
+        
         # 1. Normal Fever/Cough English Mock
         req_normal = ReportRequest(
             symptoms=["Fever", "Cough"],

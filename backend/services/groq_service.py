@@ -92,10 +92,21 @@ def parse_json_robustly(text: str) -> dict:
     raise ValueError("Failed to parse response text into valid JSON structure")
 
 class GroqService:
+    def _is_mock_mode(self) -> bool:
+        if not self.api_key:
+            return True
+        key_clean = self.api_key.strip().lower()
+        return (
+            key_clean == "" or 
+            key_clean == "your_groq_api_key" or 
+            key_clean.startswith("your_groq_") or 
+            "placeholder" in key_clean
+        )
+
     def __init__(self):
         # Retrieve Groq API Key
         self.api_key = os.getenv("GROQ_API_KEY")
-        if not self.api_key or self.api_key == "your_groq_api_key":
+        if self._is_mock_mode():
             logger.warning("GROQ_API_KEY environment variable is not set or contains the default placeholder. Serving mock clinical data.")
         
     def _generate_mock_report(self, request_data: ReportRequest) -> dict:
@@ -315,7 +326,7 @@ class GroqService:
         is_emergency = check_emergency_override(request_data.symptoms)
         
         # Check for mock fallback mode
-        if not self.api_key or self.api_key == "your_groq_api_key":
+        if self._is_mock_mode():
             logger.info("Serving high-fidelity mock clinical report.")
             mock_report = self._generate_mock_report(request_data)
             
